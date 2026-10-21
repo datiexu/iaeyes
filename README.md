@@ -1,17 +1,22 @@
 # IAEyes
 
-IAEyes（目休）的公开介绍、隐私政策、服务协议与支持页面。
+A little break for your eyes. Public information, privacy policy, terms and support for IAEyes (目休), provided by independent developer **Datie Xu**.
 
-服务运营及隐私政策、服务协议主体：个人开发者 Datie Xu。定位为工作间歇的休息工具，Apple 发行目标为 iPhone、iPad 和 Mac；实际可用版本以对应商店发布的信息为准。
+The first App Store versions for iPhone, iPad and Mac are in preparation. Availability depends on the versions actually released in the relevant store. Hosting under the `datiexu` GitHub organization does not change the individual service provider.
 
-本网站托管在 `datiexu` GitHub 组织，支持邮箱为 `itcrown2025@gmail.com`；GitHub 托管位置不改变上述个人服务主体。
+English and Chinese have separate directories. The root URL opens English by default; every page links to its counterpart in the other language. The previous language-neutral policy, terms and support URLs redirect to English.
 
-- 首页：https://datiexu.github.io/iaeyes/
-- 隐私政策：https://datiexu.github.io/iaeyes/privacy/
-- 服务协议：https://datiexu.github.io/iaeyes/terms/
-- 使用帮助与支持：https://datiexu.github.io/iaeyes/support/
-- 联系邮箱：itcrown2025@gmail.com
+| Page / 页面 | English | 中文 |
+| --- | --- | --- |
+| Home / 首页 | https://datiexu.github.io/iaeyes/en/ | https://datiexu.github.io/iaeyes/zh/ |
+| Privacy / 隐私政策 | https://datiexu.github.io/iaeyes/en/privacy/ | https://datiexu.github.io/iaeyes/zh/privacy/ |
+| Terms / 服务协议 | https://datiexu.github.io/iaeyes/en/terms/ | https://datiexu.github.io/iaeyes/zh/terms/ |
+| Support / 使用帮助 | https://datiexu.github.io/iaeyes/en/support/ | https://datiexu.github.io/iaeyes/zh/support/ |
 
-本仓库仅托管公开网站。应用源码由独立的 GitLab 项目维护。
+Contact for support and privacy: **itcrown2025@gmail.com**. General feedback can be submitted through GitHub Issues. Issues may be public; use email for privacy matters and do not post personal health information.
 
-GitHub Issues 可用于一般反馈，请勿提交个人健康资料；隐私事项请使用邮件联系。
+This repository contains only the public static website. Application source code is maintained separately on GitLab.
+
+目休（IAEyes）是工作间歇的休息工具，服务运营、隐私政策及服务协议主体均为个人开发者 **Datie Xu**。iPhone、iPad 和 Mac 的首个商店版本正在准备中，实际可用版本以对应商店的信息为准。
+
+英文版与中文版分别放在 `/en/`、`/zh/` 目录，根网址默认进入英文版，语言切换会保留当前页面。网站由 `datiexu` GitHub 组织托管，不改变个人服务主体。支持与隐私邮箱为 **itcrown2025@gmail.com**；一般反馈可用 GitHub Issues，隐私事项请通过邮件联系，请勿公开提交健康资料。
