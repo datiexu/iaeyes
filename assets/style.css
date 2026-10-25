@@ -24,11 +24,14 @@ nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
 .language-switch a { white-space: nowrap; }
 .language-switch a[aria-current="true"] { color: var(--ink); text-decoration: underline; text-underline-offset: .3em; }
 .language-switch span { color: var(--line); }
-.hero { padding: 84px 0 60px; max-width: 720px; }
+/* Home hero: one centred, framed card (animation, slogan, text, buttons),
+   as wide as the feature cards below it. */
+.hero { margin: 40px 0 16px; padding: 44px 40px 40px; display: flex; flex-direction: column; align-items: center; text-align: center; background: var(--surface); border: 1px solid var(--line); border-radius: 28px; }
 .eyebrow { color: var(--muted); font-size: 12px; letter-spacing: 2px; }
 h1 { font-size: clamp(34px, 5vw, 58px); line-height: 1.35; letter-spacing: -1.5px; font-weight: 500; margin: 18px 0 24px; }
-.hero > p { max-width: 560px; color: var(--muted); }
-.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.hero > p { max-width: 560px; margin-inline: auto; color: var(--muted); }
+.hero .meta { font-size: 13px; }
+.actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 28px; }
 .button { padding: 10px 23px; background: var(--accent); color: var(--surface); border: 1px solid var(--accent); border-radius: 999px; font-size: 14px; text-decoration: none; }
 .button.secondary { background: transparent; color: var(--accent); border-color: var(--line); }
 .features { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; padding-bottom: 40px; }
@@ -70,7 +73,7 @@ details p { color: var(--muted); }
   .brand span:last-child { display: none; }
   nav { gap: 16px; font-size: 13px; }
   .language-switch { gap: 8px; margin-left: auto; }
-  .hero { padding-top: 54px; }
+  .hero { margin-top: 24px; padding: 28px 20px 28px; border-radius: 22px; }
   .features { grid-template-columns: 1fr; gap: 12px; }
   .card { padding: 20px; }
   .card h2 { margin-top: 6px; }
@@ -91,5 +94,5 @@ details p { color: var(--muted); }
 /* Brand intro on the home page (assets/iaeyes-intro.svg, generated from the
    app icon). The card is #183528, the colour the animation reaches at its
    edges, so the square never shows. It plays once on load. */
-.brand-intro { margin: 0 0 28px; width: min(100%, 420px); aspect-ratio: 1; border-radius: 28px; background: #183528; overflow: hidden; display: grid; place-items: center; }
+.brand-intro { margin: 0 auto 28px; width: min(100%, 340px); aspect-ratio: 1; border-radius: 28px; background: #183528; overflow: hidden; display: grid; place-items: center; }
 .brand-intro img { width: 100%; height: 100%; display: block; }
